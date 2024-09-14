@@ -45,7 +45,7 @@
                                  &trans                &trans                 &trans          &trans           &trans        &trans
             >;
 
-            label = "Sym&Num";
+            label = "✖️➗➕➖🟰";
         };
 
         raise_layer {
@@ -62,7 +62,7 @@
                                             &trans            &trans        &trans             &trans    &trans    &trans
             >;
 
-            label = "BT&Arrows";
+            label = "BT & →";
         };
 
         layer_3 {
@@ -74,6 +74,15 @@
             >;
 
             label = "Fn";
+        };
+    };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        ShowFn {
+            if-layers = <1 2>;
+            then-layer = <3>;
         };
     };
 };
