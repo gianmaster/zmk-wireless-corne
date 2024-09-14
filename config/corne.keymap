@@ -45,7 +45,7 @@
                                  &trans                &trans                 &trans          &trans           &trans        &trans
             >;
 
-            label = "✖️➗➕➖🟰";
+            label = "Symbols";
         };
 
         raise_layer {
@@ -62,7 +62,7 @@
                                             &trans            &trans        &trans             &trans    &trans    &trans
             >;
 
-            label = "BT & →";
+            label = "<- BT ->";
         };
 
         layer_3 {
